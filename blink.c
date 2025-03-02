@@ -26,7 +26,7 @@ int main() {
     printf("智能家居 LED 模拟程序开始运行...\n");
     int count = 0;
 
-    while (count < 5) { // 模拟 5 次闪烁
+    while (count < 8) { // 模拟 8 次闪烁!!!!!!!!!!!!!!!我相比于上一个版本进行了修改！！！！！！！！！！！
         simulate_led(1); // LED 开
         delay(500);      // 延时 500 毫秒
         simulate_led(0); // LED 关
